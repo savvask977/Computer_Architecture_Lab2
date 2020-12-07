@@ -1,0 +1,11 @@
+Benchmarks	system.cpu.cpi	system.cpu.dcache.overall_miss_rate::total	system.cpu.icache.overall_miss_rate::total	system.l2.overall_miss_rate::total
+cacheline/32/bzip	1.853301	0.017754	0.000089	0.443071
+cacheline/128/bzip	1.661516	0.013760	0.000062	0.182205
+cacheline/32/hmmer	1.196766	0.003151	0.000218	0.081521
+cacheline/128/hmmer	1.185385	0.001012	0.000259	0.069020
+cacheline/32/mcf	1.150503	0.003082	0.000044	0.837579
+cacheline/128/mcf	1.085983	0.001314	0.000042	0.535700
+cacheline/32/sjeng	17.645921	0.243654	0.000022	0.999989
+cacheline/128/sjeng	6.805894	0.060917	0.000013	0.999957
+cacheline/32/speclibm	5.606497	0.121940	0.000089	0.999970
+cacheline/128/speclibm	2.581573	0.030487	0.000121	0.999829
