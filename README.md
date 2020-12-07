@@ -86,7 +86,7 @@ C)Σε αυτό το σημείο τρέχουμε ξανά όλα τα παρα
 
 
 >### Βήμα 2 - Design Exploration
-
+![design](./diagrams/DesignLogic.jpg)
 ![L1 Isize](./diagrams/L1iSize.jpg) 
 ![L1 Iassoc](./diagrams/L1ias.jpg) 
 ![L1 Dsize](./diagrams/L1Dsize.jpg) 
