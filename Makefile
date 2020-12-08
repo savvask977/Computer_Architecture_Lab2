@@ -1,3 +1,10 @@
+SHELL := /bin/bash
+CC = gcc -O3
+PTHREAD = -pthread
+
+automator: automator.c
+	$(CC) $< -o $@ $(PTHREAD)
+
 specbzip:
 	./build/ARM/gem5.opt -d spec_results/$(PATH) configs/example/se.py $(PARAM) --cpu-type=MinorCPU \
 	--caches --l2cache -c spec_cpu2006/401.bzip2/src/specbzip -o \
